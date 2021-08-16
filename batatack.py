@@ -6,7 +6,7 @@ BACKGROUND_HIGTH=500
 BACKGROUND_HEIGTH=800 
 
 SPRITE_ROCK = pygame.transform.scale2x(pygame.image.load(os.path.join('sprites','1234.png')))
-SPRITE_GROUND = pygame.image.load()
+SPRITE_GROUND = pygame.transform.scale2x(pygame.image.load(os.path.join('sprites','45.png')))
 SPRITE_BACKGROUND = pygame.transform.scale2x(pygame.image.load(os.path.join('sprites','12.png')))
 SPRITES_BAT = [
     pygame.transform.scale2x(pygame.image.load(os.path.join('sprites','1.png'))),
